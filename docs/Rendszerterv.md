@@ -101,4 +101,9 @@ A tesztelések célja, hogy meggyőződjünk az alkamazás gombjainak, beviteli 
 
 Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a számítógép .NET keretrendszerrel, így tudja bármikor futtatni kedve szerint a felhasználó az alkamazást.
 
+## 12. Karbantartási terv
 
+Figyelembe kell venni a felhasználó által jött visszajelzést is a programmal kapcsolatban.
+Ha hibát talált, mielőbb orvosolni kell, lehet az:
+*	Működéssel kapcsolatos
+*	Kinézet, dizájnnal kapcsolatos
