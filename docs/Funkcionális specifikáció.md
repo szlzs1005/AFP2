@@ -46,3 +46,9 @@ K4: Új, tovább szofisztikáltabb vírus hozzáadása.
 ## 9. Forgatókönyvek
 
 Mivel a cég nem követeli meg az informatika ezenszintű ismeretét, ezért dolgozóitól nem várható el, hogy minden gyanús, vagy ténylegesen káros filet ki tudjanak szűrni. Ezért rohamosan megnőtt a vírusok miatt keletkezett kellemetlenségek és lassulások, ezért a megrendelő egy szoftvert szeretne, amivel ezt valamilyen szinte vissza tudja szorítani. 
+
+## 10. Funkció - követelmény megfeleltetése
+
+K1: Search - Vírus keresése, lefutás után státusz visszajelzés.
+
+K2: Delete - Talált vírus esetén, annak törlése.
