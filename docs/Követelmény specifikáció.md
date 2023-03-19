@@ -7,3 +7,7 @@ Jelenleg a megrendelő cég a számítógépeit védelem nélkül ellátva adja 
 ## 2. A jelenlegi helyzet leírása
 
 Jelenleg bármilyen probléma van a munkahelyet a számítógépekkel a rendszergazdákhoz fordulnak az emberek, így azok le vannak mindig terhelve. A számítógépek meghibásodása túlnyomó esetekben vírusok miatt keletkezik, mivel eddig semmilyen védelem nem volt a számítógépekre telepítve, ezen vírusokat könnyedén még hozzáértők is könnyen megkaphatták, akár a phishing email-en keresztül. 
+
+## 3. Vágyálomrendszer
+
+A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép teljes diagnosztizálását vírusokat keresve, és az esetleges felmerülő vírusokat kigyomlálni, így nem a rendszergazdákat terheléni ez a feladat is. Jelenleg a számítógépeken semmilyen védelmi eszköz nincs, így kitéve azokat a rengeteg veszélynek ami az interneten terjeng. A telepítéshez rendszergazdai jogosultság kell, azonban a használatához már az átlag felhasználó is hozzáfér. Tud futtatni egy diagnosztikát, ami átfésüli a számítógépet vírusokat keresve. Ha talált, akkor annak elhárításában is segít.
