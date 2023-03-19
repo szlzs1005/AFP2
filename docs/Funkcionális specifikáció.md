@@ -23,3 +23,9 @@ A megrendelő dolgozói bármikor különösebb ídőt nem igényelve le tudjana
 | K2 | Felület | Delete | Talált vírus esetén, annak törlése. |
 | K3 | Felület | Modify | Vírus hash módosítása esetleges vírusfejlődés esetén. |
 | K4 | Felület | Add | Új vírus hozzáadása adatbázisunkhoz. |
+
+## 6. Használati esetek
+
+A felhasználó elővigyázatosságból lefuttatja a keresést, hogy saját munkáját is megkönnyítse.
+A rendszergazda manuálisan, ismétlőlegesen lefuttatja a keresést bizonyos periódusonként.
+A rendzsergazda beütemezi az automatikus átvizsgálást, azaz a program lefuttatását.
