@@ -56,3 +56,12 @@ K2: Delete - Talált vírus esetén, annak törlése.
 K3: Modify - Vírus hash módosítása esetleges vírusfejlődés esetén.
 
 K4: Add - Új vírus hozzáadása adatbázisunkhoz.
+
+## 11 Fogalomszótár
+
+| Fogalom | Leírás |
+| :---: | --- |
+| Adaptive Maintenance | A program naprakészen tartása és finomhangolása |
+| Perfective Maintenance | A szoftver hosszútávú használata érdekében végzett módosítások, új funkciók, a szoftver teljesítményének és működési megbízhatóságának |
+| UML | Unified Modeling Language |
+| Vírus | Többnyire rosszindulatú, más állományokat használhatatlanná, sőt teljesen tönkre is tehet. |
