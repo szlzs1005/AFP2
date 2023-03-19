@@ -25,3 +25,13 @@ A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép
     - **Vírusos fájl törölhet**
     - **Vírusfájlt módosíthat**
     - **Lehetséges vírusos fájlt adhat hozzá az adatbázishoz**
+
+## 6. Követelménylista
+
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 | Felület | Search | Vírus keresése, lefutás után státusz visszajelzés. |
+| K2 | Felület | Delete | Talált vírus esetén, annak törlése. |
+| K3 | Felület | Modify | Vírus hash módosítása esetleges vírusfejlődés esetén. |
+| K4 | Felület | Add | Új vírus hozzáadása adatbázisunkhoz. |
+
