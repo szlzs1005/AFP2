@@ -96,3 +96,9 @@ Az alkamazás C# nyelven .NET keretrendszerrel, illetve RestAPI épül. A nem eg
 ## 10. Tesztterv
 
 A tesztelések célja, hogy meggyőződjünk az alkamazás gombjainak, beviteli mezőinek, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ba dokumentálni fogja.
+
+## 11. Telepítési terv
+
+Nem szükséges telepíteni magát a szoftvert, elég ha csak rendelkezik a számítógép .NET keretrendszerrel, így tudja bármikor futtatni kedve szerint a felhasználó az alkamazást.
+
+
