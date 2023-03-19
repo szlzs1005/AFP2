@@ -50,3 +50,22 @@ A Top G's nevű csapat elsődleges feladata egy olyan applikáció fejlesztése,
   ***Törvényi előírások, szabványok:***
   - **GDPR-nek való megfelelés**
 
+### Támogatott eszközök
+
+Az alkalmazásunk kompatibilis lesz minden windows rendszerrel ellátott számítógépen.
+
+## 5. Funkcionális terv
+
+### 5.1 Rendszerszereplők
+
+>felhasználó
+
+  **Rendszerhasználati esetek és lefutásaik:**
+
+
+ - **Felhasználó**
+    - **Vírust kereshet**
+    - **Vírusos fájl törölhet**
+    - **Vírusfájlt módosíthat**
+    - **Lehetséges vírusos fájlt adhat hozzá az adatbázishoz**
+
