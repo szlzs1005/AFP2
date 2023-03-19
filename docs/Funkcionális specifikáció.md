@@ -42,3 +42,7 @@ K4: Új, tovább szofisztikáltabb vírus hozzáadása.
 ![Képernyőterv](/docs/pics/1.png)
 
 ![Képernyőterv2](/docs/pics/2.png)
+
+## 9. Forgatókönyvek
+
+Mivel a cég nem követeli meg az informatika ezenszintű ismeretét, ezért dolgozóitól nem várható el, hogy minden gyanús, vagy ténylegesen káros filet ki tudjanak szűrni. Ezért rohamosan megnőtt a vírusok miatt keletkezett kellemetlenségek és lassulások, ezért a megrendelő egy szoftvert szeretne, amivel ezt valamilyen szinte vissza tudja szorítani. 
