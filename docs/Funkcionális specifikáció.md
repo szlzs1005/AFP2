@@ -52,3 +52,7 @@ Mivel a cég nem követeli meg az informatika ezenszintű ismeretét, ezért dol
 K1: Search - Vírus keresése, lefutás után státusz visszajelzés.
 
 K2: Delete - Talált vírus esetén, annak törlése.
+
+K3: Modify - Vírus hash módosítása esetleges vírusfejlődés esetén.
+
+K4: Add - Új vírus hozzáadása adatbázisunkhoz.
