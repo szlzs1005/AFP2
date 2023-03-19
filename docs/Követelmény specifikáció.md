@@ -15,3 +15,13 @@ A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ![jelenlegi folyamat](../docs/pics/jelenlegi.png))
+
+## 5. Igényelt üzleti folyamatok modellje
+
+![igényelt folyamat](../docs/pics/folyamat.png)
+
+ - **Felhasználó**
+    - **Vírust kereshet**
+    - **Vírusos fájl törölhet**
+    - **Vírusfájlt módosíthat**
+    - **Lehetséges vírusos fájlt adhat hozzá az adatbázishoz**
