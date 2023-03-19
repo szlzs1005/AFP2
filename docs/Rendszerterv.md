@@ -77,3 +77,7 @@ Az alkalmazásunk kompatibilis lesz minden windows rendszerrel ellátott számí
     - **Visual Studio Code**
     - **Notepad++**
     - **XAMPP**
+
+## 7. Architekturális terv
+
+A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A backend Node.js és C# alapon nyugszik, .NET keretrendszerrel.
