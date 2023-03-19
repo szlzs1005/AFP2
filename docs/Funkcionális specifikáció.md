@@ -29,3 +29,10 @@ A megrendelő dolgozói bármikor különösebb ídőt nem igényelve le tudjana
 A felhasználó elővigyázatosságból lefuttatja a keresést, hogy saját munkáját is megkönnyítse.
 A rendszergazda manuálisan, ismétlőlegesen lefuttatja a keresést bizonyos periódusonként.
 A rendzsergazda beütemezi az automatikus átvizsgálást, azaz a program lefuttatását.
+
+## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
+
+K1: A fertőzött fájlt megkeresi.
+K2: A vírust törli az eszközről.
+K3: Régebbi vírus, amely evolávlódott, így annak elérése és megkeresése is megváltozott.
+K4: Új, tovább szofisztikáltabb vírus hozzáadása.
