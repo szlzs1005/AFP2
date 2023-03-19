@@ -36,3 +36,9 @@ K1: A fertőzött fájlt megkeresi.
 K2: A vírust törli az eszközről.
 K3: Régebbi vírus, amely evolávlódott, így annak elérése és megkeresése is megváltozott.
 K4: Új, tovább szofisztikáltabb vírus hozzáadása.
+
+## 8. Képernyőtervek
+
+![Képernyőterv](/docs/pics/1.png)
+
+![Képernyőterv2](/docs/pics/2.png)
