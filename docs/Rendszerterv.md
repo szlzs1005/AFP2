@@ -32,3 +32,6 @@ A Top G's nevű csapat elsődleges feladata egy olyan applikáció fejlesztése,
    * Program alapvető funkcióinak befejezése
    * Fejlesztés befejezése
 
+## 3. Üzleti folyamatok modellje
+
+![Üzleti folyamatok](../docs/pics/folyamat.png)
