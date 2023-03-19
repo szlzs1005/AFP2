@@ -35,3 +35,18 @@ A Top G's nevű csapat elsődleges feladata egy olyan applikáció fejlesztése,
 ## 3. Üzleti folyamatok modellje
 
 ![Üzleti folyamatok](../docs/pics/folyamat.png)
+
+## 4. Követelmények
+
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 | Felület | Search | Vírus keresése, lefutás után státusz visszajelzés. |
+| K2 | Felület | Delete | Talált vírus esetén, annak törlése. |
+| K3 | Felület | Modify | Vírus hash módosítása esetleges vírusfejlődés esetén. |
+| K4 | Felület | Add | Új vírus hozzáadása adatbázisunkhoz. |
+
+  **Nem funkcionális követelmények**
+
+  ***Törvényi előírások, szabványok:***
+  - **GDPR-nek való megfelelés**
+
