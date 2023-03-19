@@ -81,3 +81,10 @@ Az alkalmazásunk kompatibilis lesz minden windows rendszerrel ellátott számí
 ## 7. Architekturális terv
 
 A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A backend Node.js és C# alapon nyugszik, .NET keretrendszerrel.
+
+## 8. Adatbázis terv
+
+### **Táblák**
+- **Tábla 1:** Hash
+    - id
+    - value
