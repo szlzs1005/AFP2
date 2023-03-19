@@ -88,3 +88,8 @@ A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, e
 - **Tábla 1:** Hash
     - id
     - value
+
+## 9. Implementációs terv
+
+Az alkamazás C# nyelven .NET keretrendszerrel, illetve RestAPI épül. A nem egymáshoz kapcsolódó funkciókat amennyire csak lehet, elkülönítjük, úgy csatoljuk egymáshoz ezzel is egy átláthatóbb, könnyebben változtatható lesz a source code-unk. Az adatokat MYSQL adatbázisban fogjuk tárolni.
+
