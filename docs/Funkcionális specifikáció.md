@@ -14,3 +14,12 @@ A jelenlegi renszerben minden számítógép védelem mentesen kerül a dolgozó
 ## 4. Igényelt üzleti folyamatok modellje
 
 A megrendelő dolgozói bármikor különösebb ídőt nem igényelve le tudjanak futtatni egy elemző sessiont, ami végigfürkészi a számítógép tárhelyét károkozók után kutatva. Mappa kiválasztása után a felhasználó egy jól látható, kiolvasható felületen kapjon tájékoztatást, hogy mely file-ok nem mentek át a szűrőn, illetve legyen lehetőség ezek azonnal törlésére.
+
+## 5. Követelménylista
+
+| Id | Modul | Név | Leírás |
+| :---: | --- | --- | --- |
+| K1 | Felület | Search | Vírus keresése, lefutás után státusz visszajelzés. |
+| K2 | Felület | Delete | Talált vírus esetén, annak törlése. |
+| K3 | Felület | Modify | Vírus hash módosítása esetleges vírusfejlődés esetén. |
+| K4 | Felület | Add | Új vírus hozzáadása adatbázisunkhoz. |
