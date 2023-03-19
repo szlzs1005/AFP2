@@ -11,3 +11,7 @@ Jelenleg bármilyen probléma van a munkahelyet a számítógépekkel a rendszer
 ## 3. Vágyálomrendszer
 
 A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép teljes diagnosztizálását vírusokat keresve, és az esetleges felmerülő vírusokat kigyomlálni, így nem a rendszergazdákat terheléni ez a feladat is. Jelenleg a számítógépeken semmilyen védelmi eszköz nincs, így kitéve azokat a rengeteg veszélynek ami az interneten terjeng. A telepítéshez rendszergazdai jogosultság kell, azonban a használatához már az átlag felhasználó is hozzáfér. Tud futtatni egy diagnosztikát, ami átfésüli a számítógépet vírusokat keresve. Ha talált, akkor annak elhárításában is segít.
+
+## 4. Jelenlegi üzleti folyamatok modellje
+
+![jelenlegi folyamat](../docs/pics/jelenlegi.png))
