@@ -69,3 +69,11 @@ Az alkalmazásunk kompatibilis lesz minden windows rendszerrel ellátott számí
     - **Vírusfájlt módosíthat**
     - **Lehetséges vírusos fájlt adhat hozzá az adatbázishoz**
 
+## 6. Fizikai környezet
+
+- **Az alkalmazás csak .NET-tel rendelkezó platformra készül, C# segítségével, MySQL adatbázissal lesz futtatva.**
+  - **Windows 64 bites operációs rendszeren futtatható.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio Code**
+    - **Notepad++**
+    - **XAMPP**
