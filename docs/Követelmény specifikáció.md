@@ -35,3 +35,11 @@ A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép
 | K3 | Felület | Modify | Vírus hash módosítása esetleges vírusfejlődés esetén. |
 | K4 | Felület | Add | Új vírus hozzáadása adatbázisunkhoz. |
 
+## 7. Fogalomtár
+
+| Fogalom | Leírás |
+| :---: | --- |
+| Adaptive Maintenance | A program naprakészen tartása és finomhangolása |
+| Perfective Maintenance | A szoftver hosszútávú használata érdekében végzett módosítások, új funkciók, a szoftver teljesítményének és működési megbízhatóságának |
+| UML | Unified Modeling Language |
+| Vírus | Többnyire rosszindulatú, más állományokat használhatatlanná, sőt teljesen tönkre is tehet. |
