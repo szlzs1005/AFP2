@@ -6,3 +6,7 @@ Jelenleg a megrendelő cég a számítógépeit védelem nélkül ellátva adja 
 ## 2. Vágyálomrendszer leírása
 
 A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép teljes diagnosztizálását vírusokat keresve, és az esetleges felmerülő vírusokat kigyomlálni, így nem a rendszergazdákat terheléni ez a feladat is. Jelenleg a számítógépeken semmilyen védelmi eszköz nincs, így kitéve azokat a rengeteg veszélynek ami az interneten terjeng. A telepítéshez rendszergazdai jogosultság kell, azonban a használatához már az átlag felhasználó is hozzáfér. Tud futtatni egy diagnosztikát, ami átfésüli a számítógépet vírusokat keresve. Ha talált, akkor annak elhárításában is segít.
+
+## 3. Jelenlegi üzleti folyamatok modellje
+
+A jelenlegi renszerben minden számítógép védelem mentesen kerül a dolgozókhoz, ezzel kitéve őket a veszélynek hogy káros szoftvert töltsenek le vagy fájlt kaphatnak emailben. Miután a baj megtörtént a rendszergazdákhoz fordulnak, akik a jobb esetben is 1-2 nap tudják megszüntetni a probláémát, ami alatt a dolgozó nem tud haladni a határidős munkákkal. Ezt a folyamatatot szeretnék leredukálni egy programra ami, ezt automatizálja és felgyorsítja.
