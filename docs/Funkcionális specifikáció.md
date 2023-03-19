@@ -10,3 +10,7 @@ A megrendelő olyan felületet szeretne, ami lehetővé teszi egy számítógép
 ## 3. Jelenlegi üzleti folyamatok modellje
 
 A jelenlegi renszerben minden számítógép védelem mentesen kerül a dolgozókhoz, ezzel kitéve őket a veszélynek hogy káros szoftvert töltsenek le vagy fájlt kaphatnak emailben. Miután a baj megtörtént a rendszergazdákhoz fordulnak, akik a jobb esetben is 1-2 nap tudják megszüntetni a probláémát, ami alatt a dolgozó nem tud haladni a határidős munkákkal. Ezt a folyamatatot szeretnék leredukálni egy programra ami, ezt automatizálja és felgyorsítja.
+
+## 4. Igényelt üzleti folyamatok modellje
+
+A megrendelő dolgozói bármikor különösebb ídőt nem igényelve le tudjanak futtatni egy elemző sessiont, ami végigfürkészi a számítógép tárhelyét károkozók után kutatva. Mappa kiválasztása után a felhasználó egy jól látható, kiolvasható felületen kapjon tájékoztatást, hogy mely file-ok nem mentek át a szűrőn, illetve legyen lehetőség ezek azonnal törlésére.
