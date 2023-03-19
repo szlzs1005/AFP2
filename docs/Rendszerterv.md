@@ -93,3 +93,6 @@ A rendszer tökéletes működéséhez szükség van egy adatbázis szerverre, e
 
 Az alkamazás C# nyelven .NET keretrendszerrel, illetve RestAPI épül. A nem egymáshoz kapcsolódó funkciókat amennyire csak lehet, elkülönítjük, úgy csatoljuk egymáshoz ezzel is egy átláthatóbb, könnyebben változtatható lesz a source code-unk. Az adatokat MYSQL adatbázisban fogjuk tárolni.
 
+## 10. Tesztterv
+
+A tesztelések célja, hogy meggyőződjünk az alkamazás gombjainak, beviteli mezőinek, illetve minden komponensének működéséről. A teszteléseket minden tag megadott számban elvégzi, külön file-ba dokumentálni fogja.
