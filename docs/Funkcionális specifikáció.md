@@ -1,0 +1,5 @@
+# Funkcionális specifikáció
+## 1. Jelenlegi helyzet leírása
+
+Jelenleg a megrendelő cég a számítógépeit védelem nélkül ellátva adja ki a dolgozóknak és gyakran felmerülő probléma hogy a dolgozók beleszaladnak egy-egy vírusba. Ezeknek a vírusoknak a megtalálása és kiírtása feleslegesen sok idő elvesznek a rendszergazdáktól. Arról nem is beszélve, hogy amíg a dolgozónál nincs a laptop, nem tudja a munkát folytatni. Esetenként megtörténik az is, hogy menhetetlen a gép és újra kell telepíteni, így esetleges adatokat veszít a dolgozó, ami létszükséglet volt a munkájához. Ezen felmerülő problémákat szeretnénk megoldani, illetve megkönnyíteni. A megrendelő mindeképpen egy mindenki által könnyen használható felületet szeretne, ami mindenki számára evidens a használata. A program nem csak a köztudatban ismert vírusokat tudja detektálni, hanem lehetőség van "egyéni szabályok" létrehozására is. Olyan file-ok is kiszűrhetőek, amik szokványos vírust nem tartalmaznak, viszont olyan tartalmaz igen, ami a cég szempontjából kockázatot jelent. Ezáltal sokkal könnyebb a céges policy-t az IT részlegen is érvényesteni.
+
