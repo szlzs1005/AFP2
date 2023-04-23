@@ -16,6 +16,7 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 | Hash Tesztelés | 2023.04.21. | Hash hozzáadása az adatbázishoz | Az adatbázishoz sikeresen hozzá tudtam adni egy hash-t | Hibát nem találtam |
 | Hash Tesztelés | 2023.04.21. | Hash módosítása az adatbázisban | Az adatbázisban sikeresen módosítotani tudtam egy hash-t | Hibát nem találtam |
 | Hash Tesztelés | 2023.04.21. | Hash törlése az adatbázisból | Az adatbázisból sikeresen ki tudtam törölni egy hash-t | Hibát nem találtam |
-| Hash Tesztelés | 2023.04.21. | Hash lekérdezése. | Az adatbázisból sikeresen le tudtam kérdezn egy hash-t | Hibát nem találtam |
-| Fájl beolvasása | 2023.04.21. | Fájl beolvasása a keresőbe | Adott fájl ki tudtam választani és keresni az alkalmazásban | Hibát nem találtam |
+| Hash Tesztelés | 2023.04.21. | Hash lekérdezése. | Az adatbázisból sikeresen le tudtam kérdezni egy hash-t | Hibát nem találtam |
+| Fájl beolvasása | 2023.04.21. | Fájl beolvasása a keresőbe | Adott fájlt ki tudtam választani és keresni az alkalmazásban | Hibát nem találtam |
 | Fájl konvertálása | 2023.04.21. | Beolvasott fájl konvertálása | A beolvasott fájlt sikeresen konvertálta az alkalmazás | Hibát nem találtam |
+| Átkonvertált fájlhash összehasonlítás | 2023.04.21. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az akutális hashünkhöz | Hibát találtam |
