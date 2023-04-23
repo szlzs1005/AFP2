@@ -38,6 +38,12 @@ Böngészők: Opera, Google Chrome, Mozilla Firefox
 
 A dokumentumban fel lesz sorolva az elvégzett tesztek kimentele, illetve elvárásai. Alfa, Béta és Végleges verzió külön ki lesz fejtve.
 
+## Alfa teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.04.22. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Mihály Balázs
