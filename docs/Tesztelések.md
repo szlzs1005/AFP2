@@ -20,3 +20,10 @@ Ebben a dokumentumban lesz felsorolva az elvégzett tesztek elvárásai és ered
 | Fájl beolvasása | 2023.04.21. | Fájl beolvasása a keresőbe | Adott fájlt ki tudtam választani és keresni az alkalmazásban | Hibát nem találtam |
 | Fájl konvertálása | 2023.04.21. | Beolvasott fájl konvertálása | A beolvasott fájlt sikeresen konvertálta az alkalmazás | Hibát nem találtam |
 | Átkonvertált fájlhash összehasonlítás | 2023.04.21. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az akutális hashünkhöz | Hibát találtam |
+
+Az Alfa tesztelés során a minden pont hibátlanul működött, kivéve az összehasonlításnál, amit a további teszteknél javítva lesz.
+A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelésre.
+
+Tesztelést végezte és írta: Kaponya Martin
+
+Befejezve: 2023.04.21
