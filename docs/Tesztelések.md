@@ -49,6 +49,7 @@ A dokumentumban fel lesz sorolva az elvégzett tesztek kimentele, illetve elvár
 | Hash Tesztelés | 2023.04.22. | Hash lekérdezése. | Az adatbázisból sikeresen le tudtam kérdezni egy hash-t | Hibát nem találtam |
 | Fájl beolvasása | 2023.04.22. | Fájl beolvasása a keresőbe | Adott fájlt ki tudtam választani és keresni az alkalmazásban | Hibát nem találtam |
 | Fájl konvertálása | 2023.04.22. | Beolvasott fájl konvertálása | A beolvasott fájlt sikeresen konvertálta az alkalmazás | Hibát nem találtam |
+| Átkonvertált fájlhash összehasonlítás | 2023.04.22. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az akutális hashünkhöz | Hibát találtam |
 
 # Tesztjegyzőkönyv
 
