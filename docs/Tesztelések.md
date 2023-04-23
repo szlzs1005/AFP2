@@ -45,6 +45,8 @@ A dokumentumban fel lesz sorolva az elvégzett tesztek kimentele, illetve elvár
 | Adatbázis | 2023.04.22. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
 | Hash Tesztelés | 2023.04.22. | Hash hozzáadása az adatbázishoz | Az adatbázishoz sikeresen hozzá tudtam adni egy hash-t | Hibát nem találtam |
 | Hash Tesztelés | 2023.04.22. | Hash módosítása az adatbázisban | Az adatbázisban sikeresen módosítotani tudtam egy hash-t | Hibát nem találtam |
+| Hash Tesztelés | 2023.04.22. | Hash törlése az adatbázisból | Az adatbázisból sikeresen ki tudtam törölni egy hash-t | Hibát nem találtam |
+| Hash Tesztelés | 2023.04.22. | Hash lekérdezése. | Az adatbázisból sikeresen le tudtam kérdezn egy hash-t | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
