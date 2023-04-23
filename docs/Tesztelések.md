@@ -51,6 +51,13 @@ A dokumentumban fel lesz sorolva az elvégzett tesztek kimentele, illetve elvár
 | Fájl konvertálása | 2023.04.22. | Beolvasott fájl konvertálása | A beolvasott fájlt sikeresen konvertálta az alkalmazás | Hibát nem találtam |
 | Átkonvertált fájlhash összehasonlítás | 2023.04.22. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az akutális hashünkhöz | Hibát találtam |
 
+Az Alfa tesztelés során a minden pont hibátlanul működött, kivéve az összehasonlításnál, amit a további teszteknél javítva lesz.
+A következő tesztelés során tesztelésre kerül a többi funkció is.
+
+Tesztelést végezte és írta: Szabó Zsolt
+
+Befejezve:2023.04.22
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Mihály Balázs
