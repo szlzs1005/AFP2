@@ -65,6 +65,8 @@ Befejezve: 2023.05.02
 | Backend | 2023.05.20. | A backendben megírt kódok megfelelő működése | A backend kódjai működnek. | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.20. | Scan gombbal megvizsgálja a fájl-t | Gombra kattintva és a lépéseket követve sikeresen átvizsgálja a fájl-t | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.20. | Delete gombbal törli a fájl-t | Gombra kattintva és a lépéseket követve sikeresen törli a fájl-t | Hibát nem találtam |
+| Menüpont tesztelés | 2023.05.20. | Check gombbal megkeressük a fájl-t | Gombra kattintva és a lépéseket követve sikeresen megtalálja a fájl-t | Hibát nem találtam |
+| Menüpont tesztelés | 2023.05.20. | Get gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen megkapjuk a fájl hashét. | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
