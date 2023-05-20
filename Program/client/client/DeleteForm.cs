@@ -51,5 +51,42 @@ namespace client
             UpdateForm updateForm = new UpdateForm();
             updateForm.Show();
         }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            if (tbValue.Text == "")
+            {
+                lblStatus.ForeColor = Color.Red;
+                lblStatus.Text = "Please add hash value";
+                btnDelete.Enabled = false;
+                return;
+            }
+            client = new RestClient("http://localhost:3001/hash/read");
+            request = new RestRequest();
+            request.Method = Method.Get;
+            response = client.Execute<List<Hash>>(request);
+            bool found = false;
+            foreach (Hash hash in response.Data)
+            {
+                if (hash.value == tbValue.Text)
+                {
+                    found = true;
+                    this.hash = hash;
+                    break;
+                }
+            }
+            if (found)
+            {
+                lblStatus.ForeColor = Color.Green;
+                lblStatus.Text = "Hash value found";
+                btnDelete.Enabled = true;
+            }
+            else
+            {
+                lblStatus.ForeColor = Color.Red;
+                lblStatus.Text = "Hash value not found";
+                btnDelete.Enabled = false;
+            }
+        }
     }
 }
