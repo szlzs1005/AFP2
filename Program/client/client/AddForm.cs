@@ -26,6 +26,11 @@ namespace client
             InitializeComponent();
         }
 
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
 
+        
     }
 }
