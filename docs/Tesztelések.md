@@ -134,3 +134,9 @@ A következő tesztelés során a többi funkció kerül vizsgálatra, tesztelé
 Tesztelést végezte és írta: Mihály Balázs
 
 Befejezve: 2023.04.23
+
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Átkonvertált fájlhash összehasonlítás | 2023.05.10. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az aktuális hashünkhöz | Hibát nem találtam |
