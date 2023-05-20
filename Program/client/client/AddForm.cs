@@ -88,5 +88,12 @@ namespace client
             UpdateForm updateForm = new UpdateForm();
             updateForm.Show();
         }
+        
+        private void openDeleteFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeleteForm deleteForm = new DeleteForm();
+            deleteForm.Show();
+        }
     }
 }
