@@ -146,6 +146,12 @@ Befejezve:2023.05.04
 | Menüpont tesztelés | 2023.05.21. | Get gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen megkapjuk a fájl hashét. | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.21. | Update gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen updateljük a fájl hashét. | Hibát nem találtam |
 
+A végleges teszt lezajlott, minden korábbi hiba javításra került, a program átadásra kész a megrendelőnek.
+
+Tesztelést végezte és írta: Szabó Zsolt
+
+Befejezve:2023.05.21
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Mihály Balázs
