@@ -176,3 +176,9 @@ A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásna
 Tesztelést végezte és írta: Mihály Balázs
 
 Befejezve: 2023.05.10
+
+## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.05.22. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
