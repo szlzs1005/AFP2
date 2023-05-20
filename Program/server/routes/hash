@@ -42,3 +42,40 @@ router.get('/read', (req, res, next) => {
     }
   });
 });
+
+router.patch('/update/:id', (req, res, next) => {
+  const id = req.params.id;
+  let hash = req.body;
+  IsHashValueAlreadyExists(hash.value, (err, result) => {
+    if (!err) {
+      if (result === 0) {
+        var query = 'UPDATE hash SET value = ? WHERE id = ?';
+        connection.query(query, [hash.value, id], (err, results) => {
+          if (!err) {
+            if (results.affectedRows == 0) {
+              return res.status(404).json({
+                message: 'No hash value found',
+              });
+            }
+
+            return res.status(200).json({
+              message: 'Hash value updated successfully',
+            });
+          } else {
+            return res.status(500).json({
+              message: err,
+            });
+          }
+        });
+      } else {
+        return res.status(403).json({
+          message: 'This hash value already exists',
+        });
+      }
+    } else {
+      return res.status(500).json({
+        message: err,
+      });
+    }
+  });
+});
