@@ -33,5 +33,13 @@ namespace client
             Environment.Exit(0);
         }
 
+        
+        private void openScannerFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ScannerForm scanForm = new ScannerForm();
+            scanForm.Show();
+        }
+
     }
 }
