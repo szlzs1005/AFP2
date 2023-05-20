@@ -138,6 +138,8 @@ Befejezve:2023.05.04
 | Fájl beolvasása | 2023.05.21. | Fájl beolvasása a keresőbe | Adott fájlt ki tudtam választani és keresni az alkalmazásban | Hibát nem találtam |
 | Fájl konvertálása | 2023.05.21. | Beolvasott fájl konvertálása | A beolvasott fájlt sikeresen konvertálta az alkalmazás | Hibát nem találtam |
 | Átkonvertált fájlhash összehasonlítás | 2023.05.21. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az aktuális hashünkhöz | Hibát nem találtam |
+| Frontend | 2023.05.21. | A frontend megjelenésének vizsgálata | Az oldalak designa elfogadható, átlátható. | Hibát nem találtam |
+| Backend | 2023.05.21. | A backendben megírt kódok megfelelő működése | A backend kódjai működnek. | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
