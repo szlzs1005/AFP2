@@ -144,3 +144,4 @@ Befejezve: 2023.04.23
 | Backend | 2023.05.10. | A backendben megírt kódok megfelelő működése | A backend kódjai a btnSend_Click gomb kódján kívül működnek. | A leírt hibát találtam |
  Menüpont tesztelés | 2023.05.10. | Scan gombbal megvizsgálja a fájl-t | Gombra kattintva és a lépéseket követve sikeresen átvizsgálja a fájl-t | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.10. | Delete gombbal törli a fájl-t | Gombra kattintva és a lépéseket követve sikeresen törli a fájl-t | Hibát nem találtam |
+| Menüpont tesztelés | 2023.05.10. | Check gombbal megkeressük a fájl-t | Gombra kattintva és a lépéseket követve sikeresen megtalálja a fájl-t | Hibát nem találtam |
