@@ -41,6 +41,14 @@ Befejezve: 2023.04.21
 | Menüpont tesztelés | 2023.05.02. | Get gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen megkapjuk a fájl hashét. | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.02. | Update gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen updateljük a fájl hashét. | Hibát nem találtam |
 
+Az Alfa tesztben hibásan működő összehasonlítás mostmár javítva került tesztelésre.
+A Béta teszt elkészült, a letesztelt funkciók megfelelően működtek a weboldalon, kivételt  képez a btnSend_Click funkció.
+A végleges tesztelésnél prioritást élvez a Béta teszt során még hibásnak titulált funkció, majd újra ellenőrzésre kerülnek az összes funkció.
+
+Tesztelést végezte és írta: Kaponya Martin
+
+Befejezve: 2023.05.02
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Szabó Zsolt
