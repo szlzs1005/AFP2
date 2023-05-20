@@ -116,7 +116,7 @@ Befejezve:2023.04.22
 | Menüpont tesztelés | 2023.05.04. | Delete gombbal törli a fájl-t | Gombra kattintva és a lépéseket követve sikeresen törli a fájl-t | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.04. | Check gombbal megkeressük a fájl-t | Gombra kattintva és a lépéseket követve sikeresen megtalálja a fájl-t | Hibát nem találtam |
 | Menüpont tesztelés | 2023.05.04. | Get gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen megkapjuk a fájl hashét. | Hibát nem találtam |
-
+| Menüpont tesztelés | 2023.05.04. | Update gombbal megkapjuk a fájl hash-ét | Gombra kattintva és a lépéseket követve sikeresen updateljük a fájl hashét. | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
