@@ -86,5 +86,48 @@ namespace client
                 tbNew.Enabled = false;
             }
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string newValue = tbNew.Text;
+            if (!Regex.IsMatch(newValue, "^[a-zA-Z0-9]+$") || newValue.Length != 32 || newValue == "")
+            {
+                lblStatus.ForeColor = Color.Red;
+                lblStatus.Text = "Please enter a new hash value";
+            }
+            else
+            {
+                try
+                {                    
+                    client = new RestClient("http://localhost:3001/hash/update/" + hash.id);
+                    request = new RestRequest();
+                    request.Method = Method.Patch;
+                    request.RequestFormat = RestSharp.DataFormat.Json;
+                    request.AddBody(new
+                    {
+                        value = newValue,
+                    });
+                    updateResponse = client.Execute(request);
+                    res = JsonSerializer.Deserialize<Response>(updateResponse.Content);
+                    if (updateResponse.StatusCode == HttpStatusCode.Forbidden)
+                    {
+                        lblStatus.ForeColor = Color.Red;
+                        lblStatus.Text = res.message;
+                    }
+                    else
+                    {
+                        lblStatus.ForeColor = Color.Green;
+                        lblStatus.Text = res.message;
+                    } 
+                }
+                catch
+                {
+                    res = JsonSerializer.Deserialize<Response>(updateResponse.Content);
+                    lblStatus.ForeColor = Color.Red;
+                    lblStatus.Text = res.message;
+                }
+            }
+        }
+ 
     }
 }
