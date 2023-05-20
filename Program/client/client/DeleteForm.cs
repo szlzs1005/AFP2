@@ -87,7 +87,8 @@ namespace client
                 lblStatus.Text = "Hash value not found";
                 btnDelete.Enabled = false;
             }
-
+        }
+        
         private void btnDelete_Click(object sender, EventArgs e)
         {
             if (tbValue.Text == "")
@@ -122,6 +123,6 @@ namespace client
                 lblStatus.Text = res.message;
             }
         }
-        }
+        
     }
 }
