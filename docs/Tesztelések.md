@@ -126,6 +126,12 @@ Tesztelést végezte és írta: Szabó Zsolt
 
 Befejezve:2023.05.04
 
+## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.05.21. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Mihály Balázs
