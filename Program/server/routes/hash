@@ -31,3 +31,87 @@ router.post('/create', (req, res, next) => {
     }
   });
 });
+
+router.get('/read', (req, res, next) => {
+  var query = 'SELECT * FROM hash';
+  connection.query(query, (err, results) => {
+    if (!err) {
+      return res.status(200).json(results);
+    } else {
+      return res.status(500).json(err);
+    }
+  });
+});
+
+router.patch('/update/:id', (req, res, next) => {
+  const id = req.params.id;
+  let hash = req.body;
+  IsHashValueAlreadyExists(hash.value, (err, result) => {
+    if (!err) {
+      if (result === 0) {
+        var query = 'UPDATE hash SET value = ? WHERE id = ?';
+        connection.query(query, [hash.value, id], (err, results) => {
+          if (!err) {
+            if (results.affectedRows == 0) {
+              return res.status(404).json({
+                message: 'No hash value found',
+              });
+            }
+
+            return res.status(200).json({
+              message: 'Hash value updated successfully',
+            });
+          } else {
+            return res.status(500).json({
+              message: err,
+            });
+          }
+        });
+      } else {
+        return res.status(403).json({
+          message: 'This hash value already exists',
+        });
+      }
+    } else {
+      return res.status(500).json({
+        message: err,
+      });
+    }
+  });
+});
+
+router.delete('/delete/:id', (req, res, next) => {
+    const id = req.params.id;
+    var query = 'DELETE FROM hash WHERE id = ?';
+    connection.query(query, [id], (err, results) => {
+      if (!err) {
+        if (results.affectedRows == 0) {
+          return res.status(404).json({
+            message: 'No data found with the given ID',
+          });
+        }
+  
+        return res.status(200).json({
+          message: 'Hash value deleted successfully',
+        });
+      } else {
+        return res.status(500).json({
+          message: err,
+        });
+      }
+    });
+  });
+
+  function IsHashValueAlreadyExists(hashValue, cb) {
+    var query = 'SELECT COUNT(*) AS count FROM hash WHERE value = ?';
+    connection.query(query, [hashValue], (err, result) => {
+      if (err) {
+        cb(err, null);
+      } else {
+        cb(null, result[0].count);
+      }
+    });
+  }
+  
+  module.exports = router;
+  
