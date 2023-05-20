@@ -25,6 +25,17 @@ namespace client
             InitializeComponent();
         }
 
-        
+    public string GetMD5FromFile(string filePath)
+        {
+            using (var md5 = MD5.Create()) 
+            { 
+                using (var stream = File.OpenRead(filePath)) 
+                {
+                    return BitConverter.ToString(md5.ComputeHash(stream)).Replace("-",string.Empty).ToLower();
+                }
+            }
+        }
+
+    
     }
 }
