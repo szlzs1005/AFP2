@@ -37,5 +37,12 @@ namespace client
             ScannerForm scanForm = new ScannerForm();
             scanForm.Show();
         }
+
+        private void openAddFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddForm crudForm = new AddForm();
+            crudForm.Show();
+        }
     }
 }
