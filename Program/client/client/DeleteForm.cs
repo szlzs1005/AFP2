@@ -44,5 +44,12 @@ namespace client
             AddForm crudForm = new AddForm();
             crudForm.Show();
         }
+
+        private void openUpdateFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UpdateForm updateForm = new UpdateForm();
+            updateForm.Show();
+        }
     }
 }
