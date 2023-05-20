@@ -101,3 +101,17 @@ router.delete('/delete/:id', (req, res, next) => {
       }
     });
   });
+
+  function IsHashValueAlreadyExists(hashValue, cb) {
+    var query = 'SELECT COUNT(*) AS count FROM hash WHERE value = ?';
+    connection.query(query, [hashValue], (err, result) => {
+      if (err) {
+        cb(err, null);
+      } else {
+        cb(null, result[0].count);
+      }
+    });
+  }
+  
+  module.exports = router;
+  
