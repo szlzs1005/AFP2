@@ -25,7 +25,7 @@ namespace client
             InitializeComponent();
         }
 
-    public string GetMD5FromFile(string filePath)
+        public string GetMD5FromFile(string filePath)
         {
             using (var md5 = MD5.Create()) 
             { 
@@ -36,7 +36,7 @@ namespace client
             }
         }
 
-    private void btnScan_Click(object sender, EventArgs e)
+        private void btnScan_Click(object sender, EventArgs e)
         {
             if (tbFilePath.Text == "" || tbMD5.Text == "")
             {
@@ -95,5 +95,18 @@ namespace client
             }
             
         }
+
+        private void browseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                string[] filePathSplit = ofd.FileName.Split('\\');
+                fileName = filePathSplit[filePathSplit.Length - 1];
+                tbMD5.Text = GetMD5FromFile(ofd.FileName);
+                tbFilePath.Text = ofd.FileName;
+            }
+        }
+        
     }
 }
