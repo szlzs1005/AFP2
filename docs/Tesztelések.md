@@ -105,6 +105,12 @@ Tesztelést végezte és írta: Szabó Zsolt
 
 Befejezve:2023.04.22
 
+## Béta teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Átkonvertált fájlhash összehasonlítás | 2023.05.04. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az aktuális hashünkhöz | Hibát nem találtam |
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Mihály Balázs
