@@ -112,5 +112,12 @@ namespace client
         {
             Environment.Exit(0);
         }
+
+        private void openCRUDFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddForm crudForm = new AddForm();
+            crudForm.Show();
+        }
     }
 }
