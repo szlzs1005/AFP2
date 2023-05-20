@@ -63,6 +63,8 @@ Befejezve: 2023.05.02
 | Átkonvertált fájlhash összehasonlítás | 2023.05.20. | Hashelt fájl összehasonlítása | Adatbázisba lévő hashekhez összehasonlítás az aktuális hashünkhöz | Hibát nem találtam |
 | Frontend | 2023.05.20. | A frontend megjelenésének vizsgálata | Az oldalak designa elfogadható, átlátható. | Hibát nem találtam |
 | Backend | 2023.05.20. | A backendben megírt kódok megfelelő működése | A backend kódjai működnek. | Hibát nem találtam |
+| Menüpont tesztelés | 2023.05.20. | Scan gombbal megvizsgálja a fájl-t | Gombra kattintva és a lépéseket követve sikeresen átvizsgálja a fájl-t | Hibát nem találtam |
+| Menüpont tesztelés | 2023.05.20. | Delete gombbal törli a fájl-t | Gombra kattintva és a lépéseket követve sikeresen törli a fájl-t | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
