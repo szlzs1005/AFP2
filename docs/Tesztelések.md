@@ -49,6 +49,12 @@ Tesztelést végezte és írta: Kaponya Martin
 
 Befejezve: 2023.05.02
 
+## Végleges teszt
+
+| Vizsgálat | Tesztelés időpontja | Elvárás | Eredmény | Hibák |
+| :---: | --- | --- | --- | --- |
+| Adatbázis | 2023.05.20. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
+
 # Tesztjegyzőkönyv
 
 Tesztelő: Szabó Zsolt
