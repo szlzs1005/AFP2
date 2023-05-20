@@ -31,8 +31,6 @@ namespace client
             Environment.Exit(0);
         }
 
-        
-
         private void openScannerFormToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -82,6 +80,13 @@ namespace client
                     lblStatus.Text = res.message;
                 }
             }
+        }
+
+        private void openUpdateFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UpdateForm updateForm = new UpdateForm();
+            updateForm.Show();
         }
     }
 }
