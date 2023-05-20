@@ -129,5 +129,11 @@ namespace client
             }
         }
  
+        private void openDeleteFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DeleteForm deleteForm = new DeleteForm();
+            deleteForm.Show();
+        }
     }
 }
