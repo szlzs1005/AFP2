@@ -87,6 +87,41 @@ namespace client
                 lblStatus.Text = "Hash value not found";
                 btnDelete.Enabled = false;
             }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (tbValue.Text == "")
+            {
+                lblStatus.ForeColor = Color.Red;
+                lblStatus.Text = "Please add hash value";
+                btnDelete.Enabled = false;
+                return;
+            }
+            try
+            {
+                client = new RestClient("http://localhost:3001/hash/delete/" + hash.id);
+                request = new RestRequest();
+                request.Method = Method.Delete;
+                deleteResponse = client.Execute(request);
+                res = JsonSerializer.Deserialize<Response>(deleteResponse.Content);
+                if (deleteResponse.StatusCode == HttpStatusCode.NotFound)
+                {
+                    lblStatus.ForeColor = Color.Red;
+                    lblStatus.Text = res.message;
+                }
+                else
+                {
+                    lblStatus.ForeColor = Color.Green;
+                    lblStatus.Text = res.message;
+                }
+            }
+            catch
+            {
+                res = JsonSerializer.Deserialize<Response>(deleteResponse.Content);
+                lblStatus.ForeColor = Color.Red;
+                lblStatus.Text = res.message;
+            }
+        }
         }
     }
 }
