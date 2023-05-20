@@ -1,0 +1,20 @@
+GOF1 - Programozz felületre implementáció helyett
+GOF2 - Objektum összetétel öröklődés helyett
+
+class Singleton
+{
+   private Singleton()
+   {
+
+   }
+
+   private static Singleton instance;
+
+   public static Singleton GetInstance()
+   {
+	if (instance == null)
+		instance = new Singleton();
+
+	return instance;
+   }
+}
