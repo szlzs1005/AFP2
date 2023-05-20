@@ -56,6 +56,8 @@ Befejezve: 2023.05.02
 | Adatbázis | 2023.05.20. | Adatbázis működés ellenőrzése. | A táblák és az alkalmazás mezői sikeresen összekapcsolva, adatbázis adatok tárolására kész. | Hibát nem találtam |
 | Hash Tesztelés | 2023.05.20. | Hash hozzáadása az adatbázishoz | Az adatbázishoz sikeresen hozzá tudtam adni egy hash-t | Hibát nem találtam |
 | Hash Tesztelés | 2023.05.20. | Hash módosítása az adatbázisban | Az adatbázisban sikeresen módosítani tudtam egy hash-t | Hibát nem találtam |
+| Hash Tesztelés | 2023.05.20. | Hash törlése az adatbázisból | Az adatbázisból sikeresen ki tudtam törölni egy hash-t | Hibát nem találtam |
+| Hash Tesztelés | 2023.05.20. | Hash lekérdezése. | Az adatbázisból sikeresen le tudtam kérdezni egy hash-t | Hibát nem találtam |
 
 # Tesztjegyzőkönyv
 
